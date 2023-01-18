@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/poetry.ai/static/css/main.073c9b0a.css",
+    "main.js": "/poetry.ai/static/js/main.89100c4d.js",
+    "static/js/787.a0e1c0d2.chunk.js": "/poetry.ai/static/js/787.a0e1c0d2.chunk.js",
+    "static/media/logo.svg": "/poetry.ai/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/poetry.ai/index.html",
+    "main.073c9b0a.css.map": "/poetry.ai/static/css/main.073c9b0a.css.map",
+    "main.89100c4d.js.map": "/poetry.ai/static/js/main.89100c4d.js.map",
+    "787.a0e1c0d2.chunk.js.map": "/poetry.ai/static/js/787.a0e1c0d2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.89100c4d.js"
+  ]
+}
