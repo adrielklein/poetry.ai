@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Poet Tree AI",
+  "name": "Poem creation app powered by artificial intelligence",
   "icons": [
     {
       "src": "favicon.ico",
