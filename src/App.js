@@ -1,25 +1,31 @@
 import logo from './logo.svg';
 import './App.css';
 
-function App() {
+import React, { useState } from 'react';
+
+const App = () => {
+  const [userInput, setUserInput] = useState('');
+  const [poem, setPoem] = useState('');
+
+  const handleChange = event => {
+    setUserInput(event.target.value);
+  };
+
+  const generatePoem = () => {
+    // Use the userInput to generate a poem and set it to the poem state
+    setPoem(generatedPoem);
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <h1>Poem Generator</h1>
+      <input type="text" onChange={handleChange} value={userInput} />
+      <button onClick={generatePoem}>Generate Poem</button>
+      <div>{poem}</div>
     </div>
   );
 }
+
+
 
 export default App;
