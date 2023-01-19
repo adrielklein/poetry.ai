@@ -13,11 +13,11 @@ const App = () => {
 
   const generatePoem = () => {
     // Use the userInput to generate a poem and set it to the poem state
-    setPoem(generatedPoem);
+    setPoem(userInput);
   };
 
   return (
-    <div>
+    <div style={{textAlign: 'center'}}>
       <h1>Poem Generator</h1>
       <input type="text" onChange={handleChange} value={userInput} />
       <button onClick={generatePoem}>Generate Poem</button>
